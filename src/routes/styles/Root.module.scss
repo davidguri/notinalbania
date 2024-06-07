@@ -1,0 +1,20 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 900;
+  font-size: max(1em, min(10em, calc(100vw * 4 / 75)));
+}
+
+.subtitle {
+  width: 80%;
+  text-align: center;
+  font-weight: 500;
+  font-size: max(0.125em, min(1.25em, calc(100vw * 4 / 75)));
+  line-height: 1.6;
+}

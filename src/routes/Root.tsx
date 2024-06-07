@@ -6,7 +6,9 @@ export default function Root() {
     <>
       <Layout>
         <main className={styles.main}>
-          Root Page
+          <text className={styles.title}>NotIn<span style={{ color: "red" }}>Albania</span></text>
+          <text className={styles.subtitle}>This is a collection of all services and businesses that do not operate in Albania, as well as alternatives for each of them.</text>
+          <section className={styles.cardSection}></section>
         </main>
       </Layout>
     </>
